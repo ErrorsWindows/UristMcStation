@@ -143,8 +143,10 @@
 		return
 	if (!reagents.total_volume)
 		return
-	if (!user.IsHolding(src))
+	if (!user.unEquip(src))
 		return
+	//if (!user.IsHolding(src))
+	//	return
 	reagents.trans_to_mob(patient, transfer_amount, CHEM_BLOOD)
 
 
