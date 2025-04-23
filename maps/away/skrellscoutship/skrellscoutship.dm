@@ -18,6 +18,7 @@
 		/area/ship/skrellscoutship/externalwing/starboard = NO_SCRUBBER|NO_VENT|NO_APC
 	)
 	spawn_weight = 0.35
+	template_flags = TEMPLATE_FLAG_SPAWN_GUARANTEED
 
 /obj/overmap/visitable/sector/skrellscoutspace
 	name = "Empty Sector"
